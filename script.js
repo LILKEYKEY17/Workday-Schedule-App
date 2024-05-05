@@ -22,6 +22,7 @@ $(".saveBtn").click(saveClick);
 function setCurrentDateAndHour() {
     var today = new Date(); 
     var day = today.getDate(); 
+    var dayEnd = "th";
 
     currentHour = today.getHours(); 
 
